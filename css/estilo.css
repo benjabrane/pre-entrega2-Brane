@@ -1,0 +1,592 @@
+*{margin: 0;
+padding: 0;
+}
+@font-face{font-family: "Roboto";src: url(../font/RobotoSlab-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"Geologia" ;
+    src: url(../font/Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+@font-face {
+    font-family:"zilla";
+    src: url(../font/ZillaSlab-Italic.ttf);
+}
+@font-face {
+    font-family: "familia";
+    src: url(../font/FamiljenGrotesk-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:"crete";
+    src: url(../font/CreteRound-Italic.ttf);
+}
+.body{
+    background-image: url(../img/fondoindex.jpg);
+    height: 20vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    }
+.body-2{
+    background-color: #D4FAFF;
+}
+.body-3{
+    background-color: #D4FFD8;
+}  
+.body-4{
+background-color: #D4E5FF;
+}
+.titulo-header{
+    font-family: "Roboto";
+    font-size: 4.5rem;
+    text-align: center;
+}
+.logo{
+    height: 120px;
+    position: relative;
+    top: -35px;
+    left: 330px;
+}
+.nav-index a{
+    font-family: "Geologia";
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    left:538px;
+    bottom: 130px;
+    }
+.formulario{
+    margin-left: 1460px;
+    position: relative;
+    bottom: 155px;
+}
+.input{
+    border-radius: 30px;
+    height:25px;
+}
+.boton{
+    border-radius: .6rem;
+    background-color: rgb(241, 196, 151);
+    border: 1px solid black;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.fila{
+    width: 100%;
+}
+.columna{
+    flex: 25%;
+    padding: 10px;
+}
+.columna img{
+    width: 385px;
+    height: 313px;
+    padding: 23px;
+    margin-left: 170px;
+    position: relative;
+    top: 19px;
+}
+.columna img:hover{
+    transform: scale(1.1);
+}
+.footer{
+    background-color: grey;
+    height: 70px;
+
+}
+.ig{
+    height: 60px;
+    padding: 10px;
+}
+.tk{
+    height: 60px;
+    padding: 10px;
+}
+.fb{
+    height: 60px;
+    padding: 10px;
+}
+.seccionfooter{
+    display: flex;
+    justify-content: center;
+}
+.cat{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 90px;
+    bottom: 250px;
+}
+.nudos{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: 25px;
+    left: 280px;
+}
+.messi{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 450px;
+    bottom: 245px;
+}
+.rosa{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: 370px;
+    left: 75px;
+}
+.str{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: 45px;
+    left: 90px;
+}
+h2{
+    font-family: "zilla";
+}
+.talleres{
+    position: relative;
+    left: 220px;
+    top: -45px;
+}
+.chakras{
+    position: relative;
+    left: 770px;
+    top: 200px;
+}
+.argentina{
+    position: relative;
+    left: 1340px;
+    bottom: 94px;
+}
+.amistad{
+    position: relative;
+    left: 1347px;
+    top: 490px;
+}
+.stranger{
+    position: relative;
+    top: 458px;
+    left: 160px;
+}
+.footer-pulsera{
+    background-color: grey;
+    position: relative;
+    top: 200px;
+}
+.footer-collares{
+background-color: grey;
+position: relative;
+top: 88px;
+}
+.footer-sobrenosotros{
+background-color: grey;
+position: relative;
+top: 188px;
+}
+.nav-nosotros a{
+    font-family: "Geologia";
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    position: relative;
+    left:618px;
+    bottom: 130px;
+}
+.mapa{
+position: relative;
+left: 700px;
+top: 68px;
+}
+.video{
+    position: relative;
+    left: 150px;
+    top: 60px;
+}
+.frasco{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 90px;
+    bottom: 260px;
+}
+.gris{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    bottom: -15px;
+    left: 280px;
+}
+.bordo{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 450px;
+    bottom: 252px;
+}
+.alas{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: 250px;
+    left: 61px;
+}
+.colores{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: -70px;
+    left: 90px;
+}
+.verde{
+    position: relative;
+    left: 220px;
+    top: -45px;
+}
+.negro{
+    position: relative;
+    left: 770px;
+    top: 200px;
+}
+.rojo{
+    position: relative;
+    left: 1340px;
+    bottom: 94px;
+}
+.collares-rosa{
+    position: relative;
+    left: 1347px;
+    top: 380px;
+}
+.blanco{
+    position: relative;
+    top: 350px;
+    left: 200px;
+}
+.stpazul{
+    position: relative;
+    left: 200px;
+    top: -45px;    
+}
+.stpbelgica{
+    position: relative;
+    left: 770px;
+    top: 200px;
+}
+.stp-blanco{
+    position: relative;
+    left: 1340px;
+    bottom: 94px;
+}
+.stpmulticolor{
+    position: relative;
+    left: 1335px;
+    top: 380px;
+}
+.stp-perlas{
+    position: relative;
+    top: 350px;
+    left: 155px;
+}
+.strap-azul{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 90px;
+    bottom: 262px;
+}
+.strap-belgica{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    top: 10px;
+    left: 280px;
+}
+.strap-blanco{
+    width: 385px;
+    height: 313px;
+    position: relative;
+    left: 450px;
+    bottom: 256px;
+}
+.strap-multicolor{
+    width: 385px;
+    height: 316px;
+    position: relative;
+    top: 250px;
+    left: 75px;
+}
+.strap-perlas{
+    width: 385px;
+    height: 316px;
+    position: relative;
+    bottom: 75px;
+    left: 90px;
+}
+.boton-compra{
+    position: relative;
+    right: -10px;
+    bottom: 535px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+}
+.boton-c1{
+position: relative;
+    left: 1060px;
+    bottom: 529px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+}
+.boton-c2{
+    position: relative;
+    left: 992px;
+    bottom: 480px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+    top: 85px;
+}
+.boton-c3{
+    position: relative;
+    left: 333px;
+    bottom: 260px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+}
+.boton-c4{
+    position: relative;
+    right: 330px;
+    top: 77px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+}
+.boton-c{
+    position: relative;
+    left: 980px;
+    bottom: 428px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+    top: -35px;
+}
+.boton-cc{
+    position: relative;
+    right: 330px;
+    bottom: 428px;
+    height: 50px;
+    border-radius: .6rem;
+    width: 80px;
+    cursor: pointer;
+    top: -38px;
+}
+.boton-cq{
+position: relative;
+left: 990px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+top: -35px;
+}
+.titulo-h2{
+position: relative;
+left: 745px;
+bottom: 60px;
+font-size: 2.5rem;
+}
+.titulo-h3{
+font-family: "crete";
+position: relative;
+left: 1310px;
+top: 160px;
+font-size: 2rem;
+}
+.b-compra{
+position: relative;
+bottom: 545px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+left: 8px;
+}
+.boton-ccc{
+position: relative;
+left: 335px;
+bottom: 270px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+}
+.b-compra2{
+position: relative;
+left: 1060px;
+bottom: 535px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+}
+.b-c{
+position: relative;
+bottom: 548px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+left: 8px;
+}
+.b-c2{
+position: relative;
+left: 1060px;
+bottom: 544px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+}
+.b-c3{
+position: relative;
+left: 417px;
+bottom: 277px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+}
+.b-c4{
+position: relative;
+left: 910px;
+border-radius: .6rem;
+cursor: pointer;
+height: 50px;
+width: 80px;
+top: -37px;
+}
+.b-c5{
+position: relative;
+right: 330px;
+bottom: 428px;
+height: 50px;
+border-radius: .6rem;
+width: 80px;
+cursor: pointer;
+top: -42px;
+}
+.hola{
+position: relative;
+top: 160px;
+left: 90px;
+}
+.hola-2{
+position: relative;
+left: 1228px;
+top: 150px;
+}
+.hola-3{
+position: relative;
+left: 668px;
+top: 395px;
+}
+.hola-4{
+position: relative;
+top: 605px;
+left: 1228px;
+}
+.hola-5{
+position: relative;
+top: 585px;
+left: 88px;
+}
+.chau-1{
+    position: relative;
+    top: 160px;
+    left: 90px;
+    }
+.chau-2{
+    position: relative;
+    left: 1228px;
+    top: 145px;
+}
+.chau-3{
+    position: relative;
+    left: 668px;
+    top: 390px;
+}
+.chau-4{
+    position: relative;
+    top: 603px;
+    left: 89px;    
+}
+.chau-5{
+    position: relative;
+    top: 585px;
+    left: 1242px;
+}
+
+
+
+
+p{
+font-family: "familia";
+font-size: 1.7rem;
+position: relative;
+bottom: 60px;
+}
+.p-uno{
+    position: relative;
+    left: 90px;
+    top: 180px;
+}
+.p-dos{
+    position: relative;
+    left: 1227px;
+    top: 160px;
+}
+.p-tres{
+    position: relative;
+    left: 670px;
+    top: 410px;
+}
+.p-cuatro{
+    position: relative;
+    top: 725px;
+    left: 1245px;
+}
+.p-cinco{
+    position: relative;
+    top: 700px;
+    left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
