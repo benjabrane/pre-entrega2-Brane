@@ -72,15 +72,24 @@
   height: 60px;
   padding: 10px;
 }
+.ig:hover {
+  transform: scale(1.7);
+}
 
 .tk {
   height: 60px;
   padding: 10px;
 }
+.tk:hover {
+  transform: scale(1.7);
+}
 
 .fb {
   height: 60px;
   padding: 10px;
+}
+.fb:hover {
+  transform: scale(1.7);
 }
 
 .seccionfooter {
@@ -97,8 +106,8 @@
 .div_test h1 {
   color: red;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
+  font-family: "foods";
+  font-size: 3, 5rem;
 }
 
 .contenedor__productos {
@@ -124,6 +133,9 @@
   margin: 0 auto;
   max-width: 100%;
   height: auto;
+}
+.contenedor__productos--img:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 320px) {

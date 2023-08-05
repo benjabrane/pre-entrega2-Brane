@@ -6,14 +6,23 @@
 .ig{
     height: 60px;
     padding: 10px;
+    &:hover{
+        transform: scale(1.7);
+    }
 }
 .tk{
     height: 60px;
     padding: 10px;
+    &:hover{
+        transform: scale(1.7);
+    }
 }
 .fb{
     height: 60px;
     padding: 10px;
+    &:hover{
+        transform: scale(1.7);
+    }
 }
 .seccionfooter{
     display: flex;
